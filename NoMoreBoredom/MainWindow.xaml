@@ -1,0 +1,48 @@
+﻿<Window x:Class="NoMoreBoredom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NoMoreBoredom"
+        mc:Ignorable="d"
+        Title="DBD Skillcheck Bot" Height="500" Width="800">
+    
+    <Grid Background="#FF494949" SizeChanged="Grid_SizeChanged" Margin="0,0,0,-66">
+        <Rectangle x:Name = "topPanel" HorizontalAlignment="Right" Height="188" Stroke="#00000000" VerticalAlignment="Top" Width="800" Fill="#FF305F8D"/>
+        <TextBlock Margin="0,22,0,0" Text="SLADOINKI'S" TextWrapping="Wrap" FontFamily="Century Gothic" FontWeight="Bold" FontSize="72" Foreground="White" TextAlignment="Center" Height="90" VerticalAlignment="Top" />
+        <TextBlock Margin="0,102,0,0" Text="S H I T T Y   S K I L L C H E C K   B O T" TextWrapping="Wrap" Foreground="#FFA0A0A0" FontFamily="Century Gothic" FontSize="24" TextAlignment="Center" Height="31" VerticalAlignment="Top" FontWeight="Normal" FontStyle="Normal"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,488,0,0" Text="Hit F2 to activate the bot!" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century Gothic" Foreground="White" FontSize="22"/>
+
+        <Image x:Name="skillcheckRing" 
+               Source="/Resources/Skillcheck Ring.png" 
+               Margin="0,275,0,0" 
+               Stretch="None"
+               VerticalAlignment="Top"/>
+
+        <Image x:Name="skillcheckSpaceContainer" 
+               Source="/Resources/Space Container.png" 
+               Margin="0,330,0,0" 
+               Stretch="None"
+               VerticalAlignment="Top"/>
+
+        <Image x:Name="skillcheckSpace" 
+               Source="/Resources/SPACE.png" 
+               Margin="0,338,0,0" 
+               Stretch="None"
+               VerticalAlignment="Top"/>
+
+        <Image x:Name="skillcheckZone" 
+               Source="/Resources/Skillcheck Zone.png" 
+               Margin="0,320,124,0" 
+               Stretch="None"
+               VerticalAlignment="Top" 
+               RenderTransformOrigin="4.15,0.4"/>
+
+        <Image x:Name="skillcheckNeedle" 
+               Source="/Resources/Skillcheck Needle.png" 
+               Margin="110,335,0,0" 
+               Stretch="None"
+               VerticalAlignment="Top" 
+               RenderTransformOrigin="-0.25,0.45"/>
+    </Grid>
+</Window>
